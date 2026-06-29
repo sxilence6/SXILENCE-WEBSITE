@@ -8,8 +8,8 @@
   --line: rgba(255, 255, 255, 0.18);
   --line-hard: rgba(255, 255, 255, 0.42);
   --black-glass: rgba(3, 3, 3, 0.72);
-  --mono: "SFMono-Regular", "Roboto Mono", Consolas, monospace;
-  --sans: Inter, "Arial Narrow", Arial, Helvetica, sans-serif;
+  --mono: "SFMono-Regular", Menlo, Consolas, monospace;
+  --sans: "Arial Narrow", Arial, sans-serif;
 }
 
 * {
