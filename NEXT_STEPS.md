@@ -38,5 +38,6 @@
 
 ## ✅ Done
 
+- Added A Bird That Mistook a Street Lamp for the Sun as a work page with PDF-sourced installation/game images and itch link/embed.
 - Static site structure exists with raw HTML/CSS/JS pages for the archive, work pages, music, and external log.
 - Latest git commit prepared the static site for publishing.

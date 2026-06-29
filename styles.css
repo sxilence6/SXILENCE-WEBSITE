@@ -365,6 +365,7 @@ h2 {
 .bleed-entry.report,
 .bleed-entry.suv,
 .bleed-entry.youtube,
+.bleed-entry.bird,
 .bleed-entry.kdo {
   grid-column: span 4;
 }
@@ -559,6 +560,7 @@ h2 {
 
 .suv,
 .youtube,
+.bird,
 .kdo {
   display: flex;
   align-items: end;
@@ -582,6 +584,21 @@ h2 {
 
 .youtube .entry-bg {
   filter: contrast(1.03) brightness(0.7);
+}
+
+.bird .entry-bg {
+  filter: grayscale(0.25) contrast(1.08) brightness(0.78);
+}
+
+.bird::before {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  content: "";
+  background:
+    radial-gradient(circle at 52% 42%, rgba(255, 255, 255, 0.2), transparent 12rem),
+    linear-gradient(180deg, transparent 35%, rgba(0, 0, 0, 0.82));
+  pointer-events: none;
 }
 
 .kdo {
@@ -1136,10 +1153,34 @@ h2 {
   padding: clamp(0.7rem, 2vw, 1.4rem);
 }
 
+.game-section {
+  padding: clamp(0.7rem, 2vw, 1.4rem);
+  border-bottom: 1px solid var(--line);
+}
+
 .video-frame {
   overflow: hidden;
   border: 1px solid var(--line);
   background: #000;
+}
+
+.itch-frame {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0 1px, transparent 1px 16px),
+    #111;
+}
+
+.itch-frame iframe {
+  display: block;
+  width: 100%;
+  height: 190px;
+  border: 0;
+}
+
+.game-links {
+  margin-top: 0.75rem;
 }
 
 .video-frame iframe {
