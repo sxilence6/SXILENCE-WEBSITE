@@ -1,0 +1,27 @@
+# Files Cloudflare should NOT upload/serve as part of the live site.
+# gitignore syntax, relative to the assets directory (repo root).
+
+# the 86 MB blocker
+.git/
+
+# tooling / agent / OS cruft
+.agent/
+.claude/
+.gitignore
+.assetsignore
+.DS_Store
+**/.DS_Store
+wrangler.jsonc
+wrangler.toml
+node_modules/
+
+# internal docs — keep these private, not served at the domain
+AGENTS.md
+CLAUDE.md
+IDEA.md
+NEXT_STEPS.md
+
+# source / working dirs not part of the published site
+Projects/
+design/
+tmp/
