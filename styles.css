@@ -1171,6 +1171,11 @@ h2 {
   gap: 0.65rem;
 }
 
+.brand {
+  font-family: "JetBrains Mono", var(--mono);
+  font-weight: 500;
+}
+
 .brand .slash {
   color: var(--dim);
 }
