@@ -12,7 +12,6 @@
 - Compress the largest images in `assets/` so the site loads faster on phones.
 - Check every page on mobile, especially image-heavy work pages.
 - Add Open Graph preview metadata so links look good when shared.
-- Add a favicon and browser tab title polish.
 
 ## 💡 Ideas
 
@@ -38,6 +37,7 @@
 
 ## ✅ Done
 
+- Added the `assets/randomgfx/Star2.png` browser favicon across all static pages.
 - Added the Kino Art / BRNO16 Silent Films with Live Music live-score trace to the homepage selected log and full external log.
 - Added A Bird That Mistook a Street Lamp for the Sun as a work page with PDF-sourced installation/game images and itch link/embed.
 - Added a VFX/3D tab for commercial production-facing work, with selected music videos, Bastl product 3D, local preview assets, and homepage navigation.
