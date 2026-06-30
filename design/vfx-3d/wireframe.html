@@ -1,0 +1,45 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Wireframe - VFX/3D</title>
+<style>
+  :root{--bg:#030303;--ink:#f1f1ee;--soft:#bebeba;--dim:#777774;--line:rgba(255,255,255,.18);--mono:ui-monospace,monospace;--sans:"Arial Narrow",Arial,sans-serif}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.35 var(--sans)}
+  header{display:flex;justify-content:space-between;padding:.5rem 1rem;border-bottom:1px solid var(--line);font:12px var(--mono)}
+  .hero{display:grid;grid-template-columns:1.05fr .95fr;min-height:72vh;border-bottom:1px solid var(--line)}
+  .wall{display:grid;grid-template-columns:repeat(2,1fr)}
+  .wall div{min-height:18rem;border:1px solid var(--line);background:#151515}
+  .copy{display:flex;flex-direction:column;justify-content:flex-end;padding:4vw;background:#060606}
+  h1{max-width:7ch;margin:0;font-size:clamp(3rem,8vw,8rem);line-height:.9;font-weight:460}
+  p{max-width:42rem;color:var(--soft)}
+  .meta{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}
+  .meta div{padding:1rem;border-right:1px solid var(--line);font:12px var(--mono);color:var(--soft)}
+  .grid{display:grid;grid-template-columns:repeat(12,1fr)}
+  .card{grid-column:span 6;min-height:34rem;border:1px solid var(--line);display:grid;grid-template-rows:1fr auto;background:#090909}
+  .card:nth-child(3n){grid-column:span 4}
+  .image{background:#1b1b1b;min-height:20rem}
+  .card-copy{padding:1rem}
+  .commercial{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+  .commercial div{min-height:18rem;border:1px solid var(--line)}
+  @media(max-width:760px){.hero,.meta,.commercial{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.card,.card:nth-child(3n){grid-column:1}.wall{grid-template-columns:1fr}}
+</style>
+<header><span>matteo ruggiero / sxilence</span><span>archive / vfx/3d / access</span></header>
+<section class="hero">
+  <div class="wall"><div></div><div></div><div></div><div></div></div>
+  <div class="copy">
+    <p>selected vfx / 3d / motion design / commercial proof with art damage still attached</p>
+    <h1>VFX / 3D</h1>
+    <p>Lead with finished videos and production roles, then show the stranger systems that make the work less replaceable.</p>
+  </div>
+</section>
+<section class="grid">
+  <article class="card"><div class="image"></div><div class="card-copy"><h2>Torture Rack</h2><p>VFX + graphic design, short context, still strip.</p></div></article>
+  <article class="card"><div class="image"></div><div class="card-copy"><h2>postorganic bauplan</h2><p>Heavy VFX / 3D / motion, still strip.</p></div></article>
+  <article class="card"><div class="image"></div><div class="card-copy"><h2>Cable Dogs</h2><p>3D/VFX layer, still strip.</p></div></article>
+</section>
+<section class="commercial"><div></div><div></div><div></div></section>
+<section class="grid">
+  <article class="card"><div class="image"></div><div class="card-copy"><h2>therapy sessions w/YouTube</h2></div></article>
+  <article class="card"><div class="image"></div><div class="card-copy"><h2>Kdo jsem?</h2></div></article>
+</section>
+<section class="commercial"><div></div><div></div><div></div></section>

@@ -8,16 +8,20 @@
       name="description"
       content="A broken archive for Matteo Ruggiero / sxilence: video, performance, sound, devices, music, text, and crash logic."
     >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body data-page="archive">
     <header class="machine-head" aria-label="Hidden machine menu">
       <a class="glitch-name" href="index.html" aria-label="Matteo Ruggiero slash sxilence home">
-        <span class="name-a">matteo ruggiero</span>
-        <span class="name-b">sxilence</span>
+        <span class="name-a" data-text="matteo ruggiero">matteo ruggiero</span>
+        <span class="name-b" data-text="sxilence">sxilence</span>
       </a>
       <nav class="buried-nav" aria-label="Primary navigation">
         <a href="#works">works</a>
+        <a href="vfx-3d.html">vfx/3d</a>
         <a href="#sound">sound</a>
         <a href="#external-log">external log</a>
         <a href="#press">press</a>
@@ -30,7 +34,6 @@
         <img class="boot-bg" src="assets/press/press-wide-headlight.jpg" alt="Masked figure in front of a car and bright light.">
         <div class="boot-overlay">
           <div class="boot-title">
-            <p>crash menu / body log / sxilence layer</p>
             <h1>
               <span>matteo ruggiero</span>
               <span>sxilence</span>
@@ -79,8 +82,8 @@
         <article class="bleed-entry photo-limb" data-tags="process press sxilence body">
           <img src="assets/press/press-hood-head.jpg" alt="Masked figure holding their head in bright car light.">
           <div class="entry-copy whisper">
-            <p class="machine-line">body file / press image but suspicious</p>
-            <p>soft pillow head / black fabric / headlights acting like a bad thought</p>
+            <p class="machine-line">press file / head held under the headlight</p>
+            <p>soft head, black fabric, the light landing like a bad thought</p>
           </div>
         </article>
 
@@ -100,13 +103,13 @@
 
         <figure class="log-image-break archive-image-break">
           <img src="assets/randomgfx/asdasd2.png" alt="Wide abstract dark graphic fragment.">
-          <figcaption>non-body image / pressure under the recovered log</figcaption>
+          <figcaption>no body here / just pressure under the recovered log</figcaption>
         </figure>
 
         <article class="bleed-entry split" data-tags="video text performance crash">
           <img src="assets/gasoline/text-memory-car.png" alt="Projection still with car monologue text over car image.">
           <div class="entry-copy">
-            <p class="machine-line">subtitle wound / projection fragment</p>
+            <p class="machine-line">projection still / the car speaking in subtitles</p>
             <h2>the object remembers badly</h2>
             <p>
               Not a clean artist statement. Closer to subtitles pulled out of a broken car.
@@ -160,8 +163,8 @@
         <article class="bleed-entry photo-limb reverse" data-tags="press process body">
           <img src="assets/press/press-between-cars.jpg" alt="Masked figure standing between snow-covered cars.">
           <div class="entry-copy whisper">
-            <p class="machine-line">prosthetic stance / between two bodies</p>
-            <p>car gap as stage / snow as broken foam / person as attachment</p>
+            <p class="machine-line">press file / standing between two car bodies</p>
+            <p>the gap as a stage, snow as broken foam, the body as an attachment</p>
           </div>
         </article>
 
@@ -217,6 +220,34 @@
           <img src="assets/gasoline/projection-bodywork.png" alt="Blurred abstract car bodywork projection still.">
           <img src="assets/randomgfx/Blurred creature fang0296.png" alt="Blurred creature graphic fragment.">
           <img src="assets/gasoline/projection-fog.png" alt="Foggy blue projection still.">
+        </article>
+
+        <article class="bleed-entry home-vfx-feed" data-tags="video design process matteo sxilence" aria-label="VFX and 3D feed">
+          <div class="section-heading external-heading">
+            <p class="kicker">vfx / 3d / motion / visual systems</p>
+            <h2><a href="vfx-3d.html">VFX / 3D</a></h2>
+          </div>
+          <div class="home-vfx-slider" data-slider data-auto="3000" aria-label="VFX and 3D preview">
+            <div class="home-vfx-track" data-slider-track>
+              <a href="vfx-3d.html">
+                <img src="assets/vfx-3d/torture-rack.jpg" alt="Still from Lebanon Hanover - Torture Rack." style="object-position: center 35%;">
+                <span>Torture Rack</span>
+              </a>
+              <a href="vfx-3d.html">
+                <img src="assets/vfx-3d/postorganic-bauplan.jpg" alt="Still from postorganic bauplan.">
+                <span>postorganic bauplan</span>
+              </a>
+              <a href="vfx-3d.html">
+                <img src="assets/vfx-3d/cable-dogs.jpg" alt="Still from Cable Dogs." style="object-position: center 35%;">
+                <span>Cable Dogs</span>
+              </a>
+              <a href="vfx-3d.html">
+                <img src="assets/vfx-3d/jizdenka-je-neplatna.jpg" alt="Still from Jizdenka je neplatna.">
+                <span>Jizdenka je neplatna</span>
+              </a>
+            </div>
+            <div class="home-vfx-dots" data-slider-dots aria-label="Choose image"></div>
+          </div>
         </article>
       </section>
 
@@ -350,7 +381,7 @@
 
       <section class="access-layer" id="access">
         <div>
-          <p class="machine-line">access layer / useful but pretending not to be</p>
+          <p class="machine-line">access layer</p>
           <h2>cv, booking, press, socials</h2>
         </div>
         <div class="access-links">
@@ -361,9 +392,7 @@
           <a href="https://sxilence.bandcamp.com/album/opravit-se-2">bandcamp</a>
           <a href="https://open.spotify.com/artist/1VB3xademetSfGzOu43ftZ">spotify</a>
           <a href="https://music.apple.com/us/artist/sxilence/1597943322">apple music</a>
-          <a href="https://linktr.ee/sxilence">linktree</a>
-          <a href="#press">press images</a>
-          <a href="#external-log">external log</a>
+          <a href="https://linktr.ee/sxilence6">linktree</a>
         </div>
       </section>
 
@@ -379,6 +408,6 @@
       <span>fucked up / car crash / soft pillow / chrome / prosthetics</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=3"></script>
   </body>
 </html>
