@@ -38,6 +38,7 @@
 
 ## ✅ Done
 
+- Added the Kino Art / BRNO16 Silent Films with Live Music live-score trace to the homepage selected log and full external log.
 - Added A Bird That Mistook a Street Lamp for the Sun as a work page with PDF-sourced installation/game images and itch link/embed.
 - Added a VFX/3D tab for commercial production-facing work, with selected music videos, Bastl product 3D, local preview assets, and homepage navigation.
 - Static site structure exists with raw HTML/CSS/JS pages for the archive, work pages, music, and external log.

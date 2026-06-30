@@ -4,6 +4,10 @@
 > Provenance tags: [USER] [CODE] [TOOL] [ASSUMPTION]. No raw logs, transcripts, or secrets.
 
 <!-- ISO timestamp · tag · what happened / decided. newest on top. -->
+- 2026-07-01T02:20:00+0300 · [USER] Matteo approved only the Kino Art / BRNO16 Silent Films with Live Music trace from the July public-trace report; added it to `index.html` and `external-log.html`, leaving Instagram and United Islands as watch-list items.
+- 2026-07-01T02:08:00+0300 · [USER] Expanded the monthly public-trace automation to watch Instagram `@sxilence6` and capture public review material such as screenshots, thumbnails, captions, metadata, and source URLs into `.agent/reports/public-trace/YYYY-MM-assets/` without publishing anything before approval.
+- 2026-07-01T02:00:00+0300 · [USER] Updated the monthly public-trace automation to save `.agent/reports/public-trace/YYYY-MM.md` and attempt a macOS desktop notification so Matteo does not need to open Codex just to know a report exists.
+- 2026-07-01T01:53:23+0300 · [CODE] Created Codex automation `monthly-sxilence-public-trace-site-update-review` to run monthly public-trace discovery for Matteo/sxilence and report candidate site updates for explicit approval before publishing.
 - 2026-06-29T22:13:55+0300 · [CODE] Fixed homepage grid after Bird page: Bird spans 8 columns, Kdo has a thumbnail, track covers and VFX go full-width, VFX participates in filters, and Bird project hero is smaller.
 - 2026-06-29T21:56:45+0300 · [CODE] Added A Bird That Mistook a Street Lamp for the Sun as a work page with PDF-sourced assets, itch embed widget, and collaborators Klara Klimas, Matteo Ruggiero, Max Helia.
 - 2026-06-29T21:00:00+0300 · [CODE] App Whisperer project videos became ambient tiles with click lightbox removed and sound roaming gated by first page interaction; homepage Whisperer copy uses a corner-only gradient.

@@ -1,0 +1,60 @@
+{
+  "run": "2026-07",
+  "instagram": {
+    "profile": "https://www.instagram.com/sxilence6/",
+    "status": "Direct public fetch was rate-limited/blocked during the dry run; search snippets still exposed relevant public post URLs.",
+    "post_urls_seen": [
+      "https://www.instagram.com/p/DPOpxhcCCaE/",
+      "https://www.instagram.com/p/DWMm9OFCMIR/"
+    ]
+  },
+  "candidates": [
+    {
+      "title": "Silent Films with Live Music: The Seashell and the Clergyman and Ghosts Before Breakfast",
+      "status": "strong_new_candidate",
+      "confidence": "high",
+      "source_url": "https://www.kinoart.cz/en/programme/silent-films-with-live-music-seashell-and-the-clergyman-and-ghosts-before-breakfast/2025/10/05/1930",
+      "date": "2025-10-05",
+      "connection": "Kino Art/BRNO16 listing names Matteo Ruggiero as one of the live music performers.",
+      "site_status": "Approved by Matteo and added to index.html plus external-log.html.",
+      "captured_assets": [
+        ".agent/reports/public-trace/2026-07-assets/kinoart-silent-films-preview.jpg",
+        "assets/external-log/32-silent-films-live-music.jpg"
+      ]
+    },
+    {
+      "title": "sxilence at United Islands of Prague 2025",
+      "status": "probably_relevant",
+      "confidence": "medium",
+      "source_url": "https://2025.unitedislands.cz/en/interpret/sxilence-i-cz",
+      "date": "2025",
+      "connection": "Search results show an official United Islands artist page for sxilence, but the source returned 502 during the dry run.",
+      "site_status": "Not found in current site search.",
+      "captured_assets": []
+    },
+    {
+      "title": "Postorganic Bauplan",
+      "status": "already_on_site",
+      "confidence": "high",
+      "source_url": "https://www.youtube.com/watch?v=aT3OrHyLcqY",
+      "date": null,
+      "connection": "VFX/3D work already present on the site; Instagram/search traces can be used only as corroboration.",
+      "site_status": "Already represented in vfx-3d.html and assets/vfx-3d.",
+      "captured_assets": [
+        ".agent/reports/public-trace/2026-07-assets/youtube-postorganic-bauplan-thumb.jpg"
+      ]
+    }
+  ],
+  "searches_checked": [
+    "\"sxilence\" \"Matteo Ruggiero\"",
+    "\"sxilence\" \"2026\"",
+    "\"Matteo Ruggiero\" \"sxilence\" Instagram",
+    "site:instagram.com/sxilence6 sxilence6",
+    "\"Matteo Ruggiero\" \"2026\"",
+    "\"sxilence\" \"2025\" \"Matteo Ruggiero\" -site:instagram.com",
+    "\"sxilence\" \"BRNO16\" -site:instagram.com",
+    "\"Silent films with live music\" \"Matteo Ruggiero\"",
+    "\"Kino Art\" \"Matteo Ruggiero\"",
+    "\"sxilence\" \"postorganic bauplan\""
+  ]
+}
