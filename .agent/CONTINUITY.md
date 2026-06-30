@@ -4,6 +4,7 @@
 > Provenance tags: [USER] [CODE] [TOOL] [ASSUMPTION]. No raw logs, transcripts, or secrets.
 
 <!-- ISO timestamp · tag · what happened / decided. newest on top. -->
+- 2026-07-01T02:35:00+0300 · [USER] Added `sxilence-site-report-reminder`, a daily 10/14/18/22 desktop-notification automation that checks `.agent/reports/public-trace/*.pending` and keeps nudging until the pending marker is removed or renamed after the report is handled.
 - 2026-07-01T02:20:00+0300 · [USER] Matteo approved only the Kino Art / BRNO16 Silent Films with Live Music trace from the July public-trace report; added it to `index.html` and `external-log.html`, leaving Instagram and United Islands as watch-list items.
 - 2026-07-01T02:08:00+0300 · [USER] Expanded the monthly public-trace automation to watch Instagram `@sxilence6` and capture public review material such as screenshots, thumbnails, captions, metadata, and source URLs into `.agent/reports/public-trace/YYYY-MM-assets/` without publishing anything before approval.
 - 2026-07-01T02:00:00+0300 · [USER] Updated the monthly public-trace automation to save `.agent/reports/public-trace/YYYY-MM.md` and attempt a macOS desktop notification so Matteo does not need to open Codex just to know a report exists.
