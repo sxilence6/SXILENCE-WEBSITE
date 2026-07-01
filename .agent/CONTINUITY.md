@@ -4,6 +4,8 @@
 > Provenance tags: [USER] [CODE] [TOOL] [ASSUMPTION]. No raw logs, transcripts, or secrets.
 
 <!-- ISO timestamp · tag · what happened / decided. newest on top. -->
+- 2026-07-01T03:02:34+0300 · [CODE] Restored homepage music card/trio to original sxilence framing; music release map is now cover-only tiles with bottom-right labels and SoundCloud Stegi/glazmo image.
+- 2026-07-01T02:55:23+0300 · [CODE] Reframed `works/music.html` from Opravit se-focused page into broader sxilence music archive with Kluci z garaze, HEART TRANSPLANT/STARDUST, BUFFERSIZE256, Study Time, SoundCloud fragments, and Stegi/glazmo radio trace.
 - 2026-07-01T02:42:00+0300 · [CODE] Switched the site favicon to `assets/randomgfx/Star2.png`.
 - 2026-07-01T02:35:00+0300 · [USER] Added `sxilence-site-report-reminder`, a daily 10/14/18/22 desktop-notification automation that checks `.agent/reports/public-trace/*.pending` and keeps nudging until the pending marker is removed or renamed after the report is handled.
 - 2026-07-01T02:20:20+0300 · [CODE] Added `assets/randomgfx/Star.png` as the favicon across all static HTML pages and verified it resolves over a local static server.
